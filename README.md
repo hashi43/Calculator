@@ -1,4 +1,4 @@
-WEB CALCULATOR PROJECT
+# WEB CALCULATOR
 
 Created a simple calculator using HTML and CSS is a great beginner-level project.
 
