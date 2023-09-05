@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="row">
+                <button onclick="clearDisplay()" class="btn">AC</button>
+                <button onclick="clickButton('+/-')" class="btn">+/-</button>
+                <button onclick="clickButton('%')" class="btn">%</button>
+                <button onclick="clickButton('/')" class="btn_orange">÷</button>
+            </div>
+            <div class="row">
+                <button onclick="clickButton(7)" class="btn_dark_hash">7</button>
+                <button onclick="clickButton(8)" class="btn_dark_hash">8</button>
+                <button onclick="clickButton(9)" class="btn_dark_hash">9</button>
+                <button onclick="clickButton('*')" class="btn_orange">x</button>
+            </div>
+            <div class="row">
+                <button onclick="clickButton(4)" class="btn_dark_hash">4</button>
+                <button onclick="clickButton(5)" class="btn_dark_hash">5</button>
+                <button onclick="clickButton(6)" class="btn_dark_hash">6</button>
+                <button onclick="clickButton('-')" class="btn_orange">-</button>
+            </div>
+            <div class="row">
+                <button onclick="clickButton(1)" class="btn_dark_hash">1</button>
+                <button onclick="clickButton(2)" class="btn_dark_hash">2</button>
+                <button onclick="clickButton(3)" class="btn_dark_hash">3</button>
+                <button onclick="clickButton('+')" class="btn_orange">+</button>
+            </div>
+            <div class="row">
+                <button onclick="clickButton(0)" class="btn0">0</button>
+                <button onclick="clickButton('.')" class="btn_dark_hash">.</button>
+                <button onclick="equalButton('=')" class="btn_orange">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
